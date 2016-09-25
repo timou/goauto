@@ -1,2 +1,2 @@
 # goauto
-Testing automation
+Testing of automation
