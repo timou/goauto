@@ -27,3 +27,11 @@ func TestAddFour(t *testing.T) {
 		t.Errorf("got %d, want %d", got, want)
 	}
 }
+
+func TestAddFive(t *testing.T) {
+	got := AddFive(3, 7, 11, 13, 17)
+	want := 51
+	if got != want {
+		t.Errorf("got %d, want %d", got, want)
+	}
+}
