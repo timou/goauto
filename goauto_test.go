@@ -19,3 +19,11 @@ func TestAddThree(t *testing.T) {
 		t.Errorf("got %d, want %d", got, want)
 	}
 }
+
+func TestAddFour(t *testing.T) {
+	got := AddFour(3, 7, 11, 13)
+	want := 35
+	if got != want {
+		t.Errorf("got %d, want %d", got, want)
+	}
+}
